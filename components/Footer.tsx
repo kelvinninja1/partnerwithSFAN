@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export default function Footer() {
   const Links = {
     action: [
@@ -62,11 +60,12 @@ export default function Footer() {
             <img
               className="h-8 w-auto sm:h-10 bg-gradient-to-tl from-blue-500 via-blue-300 to-blue-200 rounded-full"
               src="https://www.sfanonline.org/static/media/sfan.429fc475.png"
+              alt={"logo"}
             />
             <span className="ml-3 text-xl">Stars of All Nations</span>
           </a>
           <p className="mt-2 text-sm text-gray-500">
-            SFAN is unlocking the potential of Africa's young geniuses by
+            SFAN is unlocking the potential of Africa&apos;s young geniuses by
             helping them turn their passion into businesses and fulfilling
             careers.
           </p>
@@ -78,9 +77,8 @@ export default function Footer() {
             </h2>
             <nav className="list-none mb-10">
               {Links.action.map((link) => (
-                <li>
+                <li key={link.title}>
                   <a
-                    key={link.title}
                     href={link.url}
                     className="text-gray-600 hover:text-gray-800"
                   >
@@ -96,9 +94,8 @@ export default function Footer() {
             </h2>
             <nav className="list-none mb-10">
               {Links.navigation.map((link) => (
-                <li>
+                <li key={link.title}>
                   <a
-                    key={link.title}
                     href={link.url}
                     className="text-gray-600 hover:text-gray-800"
                   >
@@ -114,9 +111,8 @@ export default function Footer() {
             </h2>
             <nav className="list-none mb-10">
               {Links.quickLinks.map((link) => (
-                <li>
+                <li key={link.title}>
                   <a
-                    key={link.title}
                     href={link.url}
                     className="text-gray-600 hover:text-gray-800"
                   >
@@ -136,6 +132,7 @@ export default function Footer() {
               href="https://www.linkedin.com/in/kelvin-morrison-48abba193/"
               className="text-gray-600 ml-1"
               target="_blank"
+              rel="noopener noreferrer"
             >
               @Kelvin Morrison - Senior Software Engineer
             </a>
@@ -145,6 +142,7 @@ export default function Footer() {
               className="ml-3 text-gray-500"
               href="https://www.linkedin.com/in/kelvin-morrison-48abba193/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <svg
                 fill="currentColor"
@@ -167,6 +165,7 @@ export default function Footer() {
               className="ml-3 text-gray-500"
               href="mailto:ikelvinstudios@gmail.com"
               target="_blank"
+              rel="noopener noreferrer"
             >
               {/*Gmail SVG*/}
               <svg
@@ -185,6 +184,7 @@ export default function Footer() {
               className="ml-3 text-gray-500"
               href="https://twitter.com/ikelvinTweet"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <svg
                 fill="currentColor"

@@ -37,6 +37,7 @@ export default function Header() {
                       <img
                         className="h-8 w-auto sm:h-10"
                         src="https://www.sfanonline.org/static/media/sfan.429fc475.png"
+                        alt={"logo"}
                       />
                     </a>
                     <div className="-mr-2 flex items-center md:hidden">

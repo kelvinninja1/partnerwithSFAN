@@ -8,7 +8,7 @@ export default function PartnershipOffering() {
     {
       caption: "Scale Corporate Innovations",
       description:
-        "Partnering with us gives you an oppurtunity to elevate your position in the innovation ecosysytem and get premium brand exposure while solving real problems.",
+        "Partnering with us gives you an opportunity to elevate your position in the innovation ecosystem and get premium brand exposure while solving real problems.",
     },
     {
       caption: "Access Right-Type Audience",
@@ -32,7 +32,7 @@ export default function PartnershipOffering() {
             Working with <span className="text-blue-600">SFAN</span>
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            There are two main ways by which corperates and other stakeholders
+            There are two main ways by which cooperates and other stakeholders
             can gain exceptional value from partnering with us. Explore the
             options below and see how you can get involved in our global
             movement.
@@ -43,10 +43,10 @@ export default function PartnershipOffering() {
             Corporate Partnerships
           </h1>
           <p className="mx-auto leading-relaxed text-base px-5 mb-10">
-            We've developed a range of investment models to cater to the
+            We&apos;ve developed a range of investment models to cater to the
             different priorities and strategic needs of corporate organisation
             and government entities. From investment into SFAN, Event Production
-            Collaboration, to Venture Bulding with SFAN in the corporates'
+            Collaboration, to Venture Building with SFAN in the corporates&apos;
             specific sector or market.
           </p>
           <div className="flex flex-wrap">
@@ -83,7 +83,7 @@ export default function PartnershipOffering() {
               href="mailto:info@sfanonline.org"
               className="text-indigo-100 bg-indigo-600 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-100 hover:text-indigo-600 rounded text-lg italic mt-8"
             >
-              Let's do this
+              Let&apos;s do this
             </a>
           </div>
         </div>

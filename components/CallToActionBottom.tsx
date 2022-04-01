@@ -7,17 +7,17 @@ export default function CallToActionBottom() {
             Partner for Progress
           </h1>
           <p className="mb-8 leading-relaxed text-blue-200">
-            If you'd like to partner with us to scale our youth development
+            If you&apos;d like to partner with us to scale our youth development
             efforts, enhance your productivity or re-engineer your business
-            process, reach out to us. We'll walk you through various partnership
-            and investment options for increased ROI.
+            process, reach out to us. We&apos;ll walk you through various
+            partnership and investment options for increased ROI.
           </p>
           <div className="flex justify-center">
             <a
               className="inline-flex text-indigo-100 bg-indigo-600 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-100 hover:text-indigo-600 rounded text-lg"
               href="https://www.sfanonline.org/contact"
             >
-              Let's Talk
+              Let&apos;s Talk
             </a>
             <a
               className="ml-4 inline-flex text-indigo-600 bg-indigo-100 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 hover:text-indigo-100 rounded text-lg"
