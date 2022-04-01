@@ -4,7 +4,12 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "call-to-action":
+          "url('https://www.sfanonline.org/static/media/waves.5f91312d.png')",
+      },
+    },
   },
   plugins: [],
-}
+};
