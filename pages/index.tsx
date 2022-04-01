@@ -5,6 +5,7 @@ import TrustedBrands from "../components/TrustedBrands";
 import CallToAction from "../components/CallToAction";
 import CallToActionBottom from "../components/CallToActionBottom";
 import PartnershipOffering from "../components/PartnershipOffering";
+import Footer from "../components/Footer";
 
 const Home: NextPage = () => {
   return (
@@ -14,6 +15,7 @@ const Home: NextPage = () => {
       <PartnershipOffering />
       <CallToActionBottom />
       <TrustedBrands />
+      <Footer />
     </>
   );
 };
